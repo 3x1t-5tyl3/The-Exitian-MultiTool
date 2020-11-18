@@ -8,6 +8,7 @@ Added:
 + Dynamic Variables for a myriad of things. Open the tool in an inspector to see all available.
 + Tabbing for the DarkInspector.
 + Tilt on the ClipBoard (Thanks to dawky)
++ Added a hyperlink to this github. It'll link to the latest changelog with every version.
 
 
 Changed:
