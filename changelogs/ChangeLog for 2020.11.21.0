@@ -1,0 +1,20 @@
+ChangeLog for 2020.11.21.0
+
+Added:
++ RawDataToolTip as part of making movement easier for all but Index Users.
++ Added Version to the Name of the Item in my PubFolder.
+
+Changed:
+~ VersionControl the tool uses a "YY.MM.DD.V" system instead of arbitrary numbering.
+~ Changed the SpawnText to be more descriptive and cleaned up.
+
+Fixed:
+* Slow scrolling on the inspector due to wrong formatting.
+* ParticleColor not being properly applied.
+* ParticleColor now uses ToolColor instead of the blue-ish color when no Avatar Color is given.
+* StylusTip not respecting the color wheel.
+* "Bake Strokes" not baking all the strokes.
+
+
+Removed:
+- Nothing
