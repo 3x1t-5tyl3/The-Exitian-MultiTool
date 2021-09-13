@@ -55,7 +55,7 @@ body:
   - type: dropdown
     id: repetition
     attributes:
-      label: Does the bug persist after restarting the modpack?
+      label: Does the bug persist after respawning the tool?
       options:
         - "No"
         - "Yes"
@@ -64,7 +64,7 @@ body:
   - type: input
     id: version
     attributes:
-      label: Pack Version Number (Found in the bottom left of the main menu)
+      label: Tool Version Number (Found in the bottom left of the main menu)
       placeholder: 1.2.3?
     validations:
       required: true
