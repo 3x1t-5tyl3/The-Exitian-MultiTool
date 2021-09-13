@@ -1,0 +1,42 @@
+name: Feature request
+description: Requesting a new mod/feature
+labels: [Enhancement]
+body:
+  - type: markdown
+    id: introduction
+    attributes:
+      value: |
+        Thanks for taking the time to request your feature.
+  - type: textarea
+    id: related-to-bug
+    attributes:
+      label: Is it related to an issue?
+      description: Is it related to an issue in the pack or something that could be handled differently?
+    validations:
+      required: true
+  - type: textarea
+    id: relevant-issues
+    attributes:
+      label: Relevant issues
+      description: Did you find any existing issues relevant to this one? If you found the same issue, please contribute to that one instead of making a duplicate.
+    validations:
+      required: true
+  - type: textarea
+    id: mod-link
+    attributes:
+      label: Mod link
+      description: CurseForge mod-link if you're requesting a specific mod
+    validations:
+      required: true
+  - type: textarea
+    id: why-should-i
+    attributes:
+      label: Why add it?
+      description: A clear and concise description of why you'd want it added to the pack.
+    validations:
+      required: true
+  - type: textarea
+    id: additional-context
+    attributes:
+      label: Additional context
+      description: Add any other context about the problem here.
